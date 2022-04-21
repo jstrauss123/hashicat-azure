@@ -3,8 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "${var.prefix}-workshop"
-  #name     = "my-resources"
+  name     = "john-sheaman-workshop"
   location = "West Europe"
 }
 
